@@ -8,13 +8,11 @@ export const metadata = {
 }
 
 export default async function RootLayout({children,}: {children: React.ReactNode}) {
-  
   return (
     <html>
       <body>
-        <h1>hello NextJs</h1>
+        {children}
       </body>
-
     </html>
   )
 }
